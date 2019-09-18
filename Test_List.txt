@@ -1,0 +1,50 @@
+x Can instantiate Bank class
+- Bank has customers
+- Bank has employees
+- Bank assigns id number
+- Bank has funds on hand which is 50% of total balances
+- Bank is responsible for running monthly procedure
+- procedure assesses a fee on all checking accounts
+- procedure closes checking accounts less than $1
+- procedure adds the account fee of 1.00 to funds on hand
+- procedure adds interest to all savings accounts and deducts amount from
+  from funds on hand
+- procedure pays employees, increments employees totalSalary by the amount
+  and reduces the funds on hand by that amount
+- Bank has transactionRecord where key is pair is (transactionType, record)
+- TransactionType is deposit, withdrawal, fee, interest
+- transactionRecord creates a record for deposit, withdrawal, monthlyFee,
+  interstPayment and reduces funds on hand
+
+- Can instantiate Account superclass
+- Account holder cannot records 
+- Account is responsible for deposits
+- Account is responsible for withdrawals
+
+- Can instantiate Checking subclass of Account
+- Checking Account has a monthly fee of $1.00
+
+- Can instantiate Savings subclass of Account
+- Savings account is responsible for tallying 1% monthly interest
+
+- Customer has name
+- Customer has phoneNumber
+- Customer has id number
+- Can instantiate class ContactInfo with information
+- Customer can have checking account
+- customer can have savings account
+- customer can have no account
+
+- Employee stores name
+- Employee stores phone number
+- Employee stores id number
+- Employee Can instantiate class ContactInfo with information
+- Employee stores salary
+
+- Can instantate contactInfo
+- Contact info has name
+- Contact info has phoneNumber
+
+- Person cannot be employee or customer
+
+
